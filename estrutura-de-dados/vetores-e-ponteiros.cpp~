@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+const int NUM_ELEMENTS = 10;
+
+int main(){
+  int c[NUM_ELEMENTS];
+
+  for (int i = 0; i < NUM_ELEMENTS; i++){
+    c[i] = i*2;
+    cout << c[i] << endl;
+  }
+
+  return 0;
+}
